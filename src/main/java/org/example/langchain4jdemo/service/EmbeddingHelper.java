@@ -20,7 +20,7 @@ public class EmbeddingHelper {
     private final EmbeddingStore embeddingStore;
 
     @PostConstruct
-    public void loadSingleDocument(){                                     // we can make an API to take the document we want to chat with
+    public void loadSingleDocument(){                                     // TODO we can make an API to take the document we want to chat with
         String currentDirectory = System.getProperty("user.dir");
         String fileName = "/Mohamed_Gad_Resume.pdf";
 
