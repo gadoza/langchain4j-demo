@@ -7,5 +7,7 @@ public interface GenAIService {
 
     String getChatResponse(ChatRequest prompt);
 
+    String getChatResponseWithRAG(ChatRequest prompt);
+
     BookModel extractBookInfoFromText(String prompt);
 }
